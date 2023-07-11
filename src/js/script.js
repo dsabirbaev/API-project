@@ -92,7 +92,6 @@ function getCategory(data) {
 
 
 $("#category").addEventListener('change', (e) => {
-    wrapper.innerHTML = "";
     let value = e.target.value;
     fetchingCategoryByID(+value)
 })
